@@ -1,0 +1,1442 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.allcategories {
+    background-color: rgb(245, 242, 242);
+    color: gray;
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    overflow: hidden;
+
+
+}
+
+.mycontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+
+    /* height: auto; */
+}
+
+
+.fourteen {
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.fifty {
+    display: flex;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.ten {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.headno {
+    font-size: 38px;
+    font-family: "Inter", sans-serif;
+}
+
+.flex1 {
+    display: flex;
+
+    gap: 15px;
+    align-items: center;
+    justify-content: baseline;
+    width: 20%;
+
+}
+
+.inputsize {
+    border: none;
+    width: 250px;
+    background-color: rgb(245, 242, 242);
+    height: 40px;
+
+}
+
+.inputsize:focus {
+    outline: 2px solid rgb(34, 141, 165);
+    border-radius: 10px;
+
+}
+
+.select {
+    border: none;
+    background-color: rgb(245, 242, 242);
+    height: 40px;
+
+}
+
+.dropdown-contents a:hover {
+    background-color: rgb(201, 198, 198);
+}
+
+.select:focus {
+
+    outline: 3px solid rgb(43, 194, 228, 0.6);
+    border-radius: 10px;
+}
+
+.flex2 {
+    display: flex;
+    gap: 50px;
+    width: 20%;
+    justify-content: end;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    width: 20%;
+    justify-content: end;
+}
+
+.back1 {
+    width: 100%;
+    background-image: url('./banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 90px;
+    height: auto;
+
+}
+
+.heading1 h1 {
+
+    font-size: 80px;
+    display: inline;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.para1 {
+
+    font-size: 25px;
+    color: grey;
+    padding: 30px 0;
+
+}
+
+.mycontainer1 {
+    display: flex;
+    gap: 70px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.start {
+    border-radius: 60px;
+    color: white;
+    background-color: rgb(107, 178, 82);
+    border: none;
+    height: 55px;
+    width: 140%;
+    font-size: 15px;
+
+}
+
+.join {
+    border-radius: 60px;
+    color: white;
+    background-color: #2e2f2e;
+    border: none;
+    height: 55px;
+    width: 140%;
+    font-size: 15px;
+
+}
+
+.mycontainer2 {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.fresh {
+    background-color: rgb(107, 178, 82);
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    padding: 20px 30px;
+
+
+}
+
+.farm {
+    padding-bottom: 20px;
+}
+
+.organic {
+    background-color: rgb(4, 43, 4);
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.freedelivery {
+    background-color: orangered;
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+
+.mycontainer3 {
+    display: flex;
+    padding: 10px 10px 0;
+    height: 160px;
+}
+
+.mycontainer3>div {
+    width: 34%;
+}
+
+.view {
+    color: white;
+    background-color: rgb(107, 178, 82);
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 70%;
+    font-size: 18px;
+    padding: 10px;
+    /* margin-right: 25px; */
+}
+.view1 {
+    color: white;
+    background-color: rgb(107, 178, 82);
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+   
+}
+.mycontainer41 {
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 70px 20px;
+   
+}
+.mycontainer42 {
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 70px 20px;
+  
+
+}
+.mycontainer43 {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 70px 20px;
+   
+}
+.mycontainer44 {
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 70px 20px;
+  
+}
+
+.mycontainer4 {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 70px 20px;
+}
+
+
+.arrow {
+    background-color: rgb(245, 242, 242);
+    height: 40px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.flexview {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.mycontainer5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.round {
+    border-radius: 100px;
+
+}
+
+.imageparacenter {
+
+    text-align: center;
+
+}
+
+.checked {
+    color: orange;
+
+}
+
+.grid-mycontainer6 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 60px;
+
+    padding: 10px;
+    width: 100%;
+
+
+
+}
+.grid-mycontainer61{
+    display: flex;
+    gap: 20px;
+
+    padding: 10px;
+    width: 100%;
+
+
+
+}
+.grid-mycontainer62{
+    display: flex;
+    gap: 20px;
+
+    padding: 10px;
+    width: 100%;
+
+
+
+}
+.grid-mycontainer63{
+    display: flex;
+    gap: 20px;
+
+    padding: 10px;
+    width: 100%;
+
+
+
+}
+/* .mycontainer6{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+
+} */
+
+.buttonsize {
+    width: 13%;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.heart {
+    display: inline;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.add img {
+    color: white;
+}
+
+.strawberry1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.strawberry {
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 20px;
+
+
+
+}
+
+.straw {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.Tomato1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.tomato1 {
+
+    color: white;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.toma {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+
+.tomato2 {
+
+    color: white;
+
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    gap: 20px;
+}
+
+.Tomato2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.toma2 {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+
+.flex-tomato {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mycontainer7 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 30px;
+    gap: 20px;
+}
+
+.leaves {
+    background-image: url(https://themewagon.github.io/organic/images/banner-newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    gap: 40px;
+
+    margin-bottom: 40px;
+    margin-top: 60px;
+    height: 100%;
+    width: auto;
+    padding: 50px 200px;
+}
+
+.leaves>div {
+    width: 50%;
+
+}
+
+.headpara {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textemail {
+    background-color: white;
+    columns: grey;
+    width: 100%;
+    height: 40px;
+
+}
+
+.submit {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    width: 100%;
+    height: 40px;
+
+}
+
+.input {
+    padding: 20px;
+
+
+}
+
+.mycontainer8 {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+
+}
+
+.mycontainer8>div {
+    width: 33%;
+}
+
+.blogimg1 {
+
+    padding-left: 20px;
+}
+
+.blog1 {
+    padding-left: 40px;
+}
+
+.blog {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    transition-delay: 0.7s;
+}
+
+.download {
+
+    background-color: rgb(255, 193, 7);
+    display: flex;
+    margin-top: 40px;
+    border-radius: 40px;
+
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.download>div {
+    width: 40%;
+}
+
+.download2 img {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    padding: 20px;
+}
+
+.mycontainer9 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+
+
+
+}
+
+.blue {
+    background-color: rgb(242, 228, 202);
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+
+}
+
+.last {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.mycontainer10 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+
+.mycontainer10>div {
+    width: 18%;
+
+
+}
+
+
+.emails {
+    background-color: rgb(201, 199, 199);
+    color: grey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 220px;
+    padding: 20px;
+}
+
+.submits {
+    background-color: black;
+    color: white;
+
+    border: none;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 30px;
+    width: 100px;
+    padding: 20px;
+
+}
+
+.lastt {
+    display: flex;
+}
+
+.mycontainer11 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 0 30px;
+    gap: 50px;
+}
+
+.orga {
+    width: 16%;
+}
+
+.org {
+    width: 16%;
+}
+
+.quick {
+    width: 16%;
+}
+
+.cust {
+    width: 16%;
+}
+
+.sub {
+    width: 16%;
+}
+
+a:link {
+    color: black;
+}
+
+.greyy1 {
+    color: gray;
+    padding: 7px 0;
+    line-height: 30px;
+
+
+}
+
+.greyy2 {
+    color: gray;
+    padding: 7px 0;
+    line-height: 30px;
+
+
+}
+
+.greyyy p {
+    color: gray;
+    padding: 8px 0;
+}
+
+.mycontainer12 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.dropbutton {
+    background-color: white;
+    color: black;
+
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dropbutton1 {
+    background-color: white;
+    color: black;
+
+    border: none;
+    cursor: pointer;
+
+    font-size: 18px;
+
+}
+
+.greyy {
+    line-height: 29px;
+    padding: 10px 0;
+
+}
+
+
+
+.dropdown {
+    position: relative;
+
+}
+
+.dropdown-contents {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: white;
+    width: 200px;
+
+}
+
+.dropdown-contents a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+
+}
+
+.dropdown-contents1 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px dotted rgb(214, 211, 211);
+
+}
+
+.dropdown-contents1 {
+    margin-left: 30px;
+
+}
+
+
+.dropbutton:focus+.dropdown-contents {
+    display: block;
+}
+
+.dropbutton1:focus+.dropdown-contents1 {
+    display: block;
+}
+
+.cut {
+    padding: 20px 0;
+}
+
+.calender {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.organicl {
+    height: 50px;
+    vertical-align: middle;
+
+
+
+}
+
+.lasticon {
+    border: 1px solid rgb(167, 163, 163);
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.flexicon {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.list li {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    border-bottom: 1px dotted rgb(72, 71, 71);
+    margin: 0 10px;
+}
+
+.mainmenu {
+    background-color: #8080809e;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    display: none;
+
+}
+
+.menu {
+    width: 30%;
+    background-color: white;
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+
+.Xmenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#bar:checked~.mainmenu {
+    display: block;
+
+}
+
+#bar:checked body {
+    overflow: hidden;
+}
+
+.check {
+    display: none;
+}
+
+.padding {
+    padding: 20px 0;
+
+}
+
+.hov {
+    /* display: none; */
+    padding-bottom: 20px;
+    visibility: hidden;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.imageparacenter:hover .hov {
+    /* display: block; */
+    visibility: visible;
+
+}
+
+.imageparacenter:hover {
+    background-color: rgb(251, 249, 249);
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+
+}
+
+.imageparacenter {
+    margin: 0 20px;
+    transition: 0.5s box-shadow;
+    
+}
+
+.add {
+    color: white;
+    background-color: rgb(107, 178, 82);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+.add:hover {
+    background-color: orangered;
+}
+
+#name:focus-visible {
+    
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+
+}
+
+#email:focus-visible {
+   border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+
+}
+
+#submit:hover {
+    outline: none;
+    background-color: rgb(70, 70, 70);
+
+}
+.buttonsize:focus-visible{
+   
+   box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+    
+}
+.dropdown-contents1{
+    display: none;
+}
+.silder_container{
+   position: relative;
+}
+.owl-nav {
+    position: absolute;
+       top: -140px;
+    right: 0;
+   
+    
+}
+
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    background: rgb(134, 134, 138) !important;
+    /* color: white !important; */
+        width: 30px;
+    height: 39px;
+    margin-top: 20px;
+    border: none;
+    
+    font-size: 30px !important;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto !important;
+    margin: auto;
+        
+}
+.imageparacenter1{
+    text-align: center;
+}
+.owl-theme .owl-nav {
+     margin-top: 0px !important;
+
+} 
+#pre{
+   background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+
+}
+#justpre:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+}
+#mostpre:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+    
+}
+#feapre:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+}
+#pre:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+}
+#justnext:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+}
+#mostnext:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+    
+}
+#feanext:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+}
+#next:hover{
+    background-color:rgb(107, 178, 82);
+    cursor: pointer;
+    
+}
+
+
+#pre:active{
+     background-color: orange;
+    
+    
+}
+#next:active{
+    background-color: orange;
+    
+}
+#feapre:active{
+     background-color: orange;
+    
+    
+}
+#feanext:active{
+    background-color: orange;
+    
+}
+#mostpre:active{
+     background-color: orange;
+    
+    
+}
+#mostnext:active{
+    background-color: orange;
+    
+}
+#justpre:active{
+     background-color: orange;
+    
+    
+}
+#justnext:active{
+    background-color: orange;
+    
+}
+.view:hover{
+    background-color: orange;
+    cursor: pointer;
+    
+}
+.view1:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+#next{
+    background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+
+}
+#mostpre{
+ background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+
+}
+#mostnext{
+    background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+
+}
+#justpre{
+    background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+
+}
+#justnext{
+
+    background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+}
+#feapre{
+    background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+
+}
+#feanext{
+  background-color: rgb(214, 213, 213);
+    
+    border: none;
+    border-radius: 8px;
+    height: 42px;
+    width: 73px;
+
+}
+@media screen and (max-width:992px) {
+    .grid-mycontainer6 {
+        grid-template-columns: auto auto auto auto;
+
+    }
+
+}
+
+
+@media screen and (max-width:706px) {
+    .fifty {
+        flex-direction: column;
+    }
+
+    .mycontainer3 {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:634px) {
+    .fourteen {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .mycontainer3 {
+        flex-direction: column;
+    }
+
+    .mycontainer3>div {
+        width: 100%;
+    }
+
+    .mycontainer2 {
+        flex-wrap: wrap;
+    }
+
+    .fresh {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .organic {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .freedelivery {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+    .organic {
+        gap: 20px;
+
+    }
+
+    .fresh {
+        gap: 20px;
+
+    }
+
+    .freedelivery {
+        gap: 20px;
+
+    }
+
+    .mycontainer3 {
+        height: auto;
+    }
+
+    .mycontainer5 {
+        width: 100%;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+
+    .grid-mycontainer6 {
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .mycontainer7 {
+        grid-template-columns: auto;
+    }
+
+    .strawberry {
+        padding: 70px 30px;
+
+    }
+
+    .leaves {
+        padding: 20px;
+
+    }
+
+    .download {
+        padding: 30px;
+    }
+
+    .mycontainer10>div {
+        width: 30%;
+
+
+    }
+
+    .orga {
+        width: 40%;
+    }
+
+    .org {
+        width: 12%;
+    }
+
+    .quick {
+        width: 13%;
+    }
+
+    .cust {
+        width: 13%;
+    }
+
+    .sub {
+        width: 40%;
+    }
+
+    .divgreyy2 {
+        width: 43%;
+    }
+
+    .greyy2 {
+        text-align: right;
+    }
+
+    .flex1 {
+        width: 50%;
+    }
+
+    .allcategories {
+        width: 50%;
+    }
+
+    .flex2 {
+        width: 100%;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: center;
+        padding: 20px 0;
+
+    }
+    .owl-nav {
+    position: absolute;
+    top: -140px;
+    right: -21px;
+   
+    
+}
+
+
+
+}
+
+@media screen and (max-width:426px) {
+    .owl-nav {
+    position: absolute;
+    top: -140px;
+    right: 0;
+   
+    
+}
+    .grid-mycontainer6 {
+        grid-template-columns: auto;
+
+    }
+
+    .leaves {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .leaves>div {
+        width: 100%;
+    }
+
+    .mycontainer8 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mycontainer8>div {
+        width: 100%;
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 90%;
+
+    }
+
+    .download>div {
+        width: 100%;
+    }
+
+    .mycontainer10 {
+        flex-direction: column;
+
+    }
+
+    .mycontainer10>div {
+        width: 100%;
+    }
+
+    .mycontainer11 {
+        flex-direction: column;
+
+    }
+
+    .mycontainer11>div {
+        width: 100%;
+    }
+
+    .mycontainer12 {
+        flex-direction: column;
+
+    }
+
+    .mycontainer12>div {
+        width: 100%;
+    }
+
+    .greyy2 {
+        text-align: left;
+    }
+
+    .flex1 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .allcategories {
+        width: 100%;
+    }
+
+    .flex1 {
+        padding-bottom: 20px;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:376px) {
+    .heading1 h1 span {
+        font-size: 70px !important;
+
+    }
+
+}

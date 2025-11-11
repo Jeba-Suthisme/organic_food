@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="website3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="mycontainer">
+    <div class="flex1">
+
+
+      <img src="https://themewagon.github.io/organic/images/logo.svg" alt="">
+      <label for="bar"><i class="fa-solid fa-bars" style="color: #b4b7bb;"></i></label>
+
+
+
+
+    </div>
+    <div class="allcategories">
+      <select class="select" name="allcategories" id="allcategories">
+        <option for="Allcategories" selected>All categories</option>
+        <option for="groceries">Groceries</option>
+        <option for="drinks">Drinks</option>
+        <option for="chocolates">Chocolates</option>
+
+
+      </select>
+      <input class="inputsize" type="search" id="search" name="search"
+        placeholder="Search for more than 20,000 products">
+    </div>
+
+    <div class="flex2">
+      <div>
+        <h3 style="font-weight: bold;">HOME</h3>
+      </div>
+      <div class="dropdown">
+        <button class="dropbutton">
+      
+           PAGES 
+           <i class="fa-solid fa-sort-down"  style="color: #121212;    font-size: 16px;
+                padding-left: 5px; padding-bottom: 5px;"></i>
+       
+        </button>
+        <div class="dropdown-contents">
+          <a href="">ABOUT US</a>
+          <a href="">SHOP</a>
+          <a href="">SINGLE PRODUCT</a>
+          <a href="">CART</a>
+          <a href="">CHECKOUT</a>
+          <a href="">BLOG</a>
+          <a href="">SINGLE POST</a>
+          <a href="">STYLE</a>
+          <a href="">CONTACT</a>
+          <a href="">THANK YOU</a>
+          <a href="">MY ACCOUNT</a>
+          <a href="">404 ERROR</a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="icons">
+     <img width="25" height="25" src="https://img.icons8.com/ios/50/user-male-circle--v1.png" alt="user-male-circle--v1"/>
+      <img width="35" height="25" src="https://img.icons8.com/wired/64/bookmark-ribbon.png" alt="bookmark-ribbon"/>
+      <img width="25" height="25" src="https://img.icons8.com/ios/50/shopping-basket-2.png" alt="shopping-basket-2"/>
+
+    </div>
+  </div>
+  <input class="check" type="checkbox"id="bar" oninput="checkchange()">
+ <div class="mainmenu">
+   <div class="menu">
+    <div class="Xmenu">
+      <div><h3>MENU</h3></div>
+      <div><label for="bar"><i class="fa-solid fa-xmark" style="color: #121212;"></i></label></div>
+    </div>
+    <div class="listmenu">
+      <ul class="list">
+        <li><img width="20" height="20" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/external-fruits-nature-resource-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" alt="external-fruits-nature-resource-vitaliy-gorbachev-lineal-vitaly-gorbachev"/><a href="">Fruits and Vegetables</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/milk-carton.png" alt="milk-carton"/></i><a href="">Diary and Eggs</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/chicken.png" alt="chicken"/><a href="">Meat and Poultry</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/fish--v1.png" alt="fish--v1"/><a href="">Seafoods</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/wired/64/bread.png" alt="bread"/><a href="">Bakery and Breads</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/can-soup.png" alt="can-soup"/><a href="">Canned Foods</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/fridge.png" alt="fridge"/><a href="">Frozen Foods</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/rice-bowl.png" alt="rice-bowl"/><a href="">Pasta and Ricee</a></li>
+        <li> <img width="20" height="20" src="https://img.icons8.com/wired/64/tea.png" alt="tea"/><a href="">Breakfast Foods</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-juice-travel-flatart-icons-outline-flatarticons.png" alt="external-juice-travel-flatart-icons-outline-flatarticons"/><a href="">Snack and Chips</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbutton1">
+             <img width="20" height="20" src="https://img.icons8.com/external-line-rakhmat-setiawan/64/external-baverages-grocery-supermarket-line-line-rakhmat-setiawan.png" alt="external-baverages-grocery-supermarket-line-line-rakhmat-setiawan"/> Breverages <i class="fa-solid fa-sort-down" style="color: #121212;"></i>
+            </button>
+            <div class="dropdown-contents1">
+              <a href="">Water</a>
+              <a href="">Juice</a>
+              <a href="">Soda</a>
+              <a href="">Tea</a>
+
+            </div>
+          </div>
+        </li>
+        <li> <img width="20" height="20" src="https://img.icons8.com/ios/50/ketchup.png" alt="ketchup"/><a href="">Spices and Seasoning</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/crying-baby.png" alt="crying-baby"/><a href="">BabyFoods and Formulas</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/doctors-bag--v1.png" alt="doctors-bag--v1"/><a href="">Health and Wellness</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/shopping-basket-2.png" alt="shopping-basket-2"/><a href="">Household Products</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/ios/50/personal-growth.png" alt="personal-growth"/><a href="">Personal Care</a></li>
+        <li><img width="20" height="20" src="https://img.icons8.com/windows/32/dog-bowl.png" alt="dog-bowl"/><a href="">PetFood and Supplies</a></li>
+      </ul>
+    </div>
+
+  </div>
+ </div>
+  <div class="back1">
+    <div class="heading1">
+      <h1><span style="color: rgb(107, 178, 82);">Organic </span><span style="font-weight: lighter;">Foods at<br>
+          your </span><span class="door">Doorsteps</span></h1>
+    </div>
+    <p class="para1">Dignissim massa diam elementum.</p>
+    <div class="mycontainer1">
+      <div class="startshopping">
+        <input class="start" type="button" value="START SHOPPING">
+
+
+      </div>
+      <div id="joinnow">
+        <input class="join" type="button" value="JOIN NOW">
+      </div>
+    </div>
+    <div class="mycontainer2">
+      <div class="fourteen">
+        <div>
+          <h2 class="headno">14K+</h2>
+        </div>
+
+        <div>
+          <p>PRODUCT VARIETIES</p>
+
+        </div>
+
+      </div>
+      <div class="fifty">
+        <div>
+          <h2 class="headno">50K+</h2>
+        </div>
+
+        <div>
+          <p>HAPPY CUSTOMERS</p>
+
+        </div>
+
+      </div>
+      <div class="ten">
+        <div>
+          <h2 class="headno">10K+</h2>
+        </div>
+
+        <div>
+          <p>STORE LOCATIONS</p>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="mycontainer3">
+      <div class="fresh">
+        <div>
+          <i class="fa-solid fa-arrows-rotate" style="color: #faf4f4;font-size: 30px; width: 30%"></i>
+        </div>
+        <div>
+          <h2 class="farm">Fresh from farm</h2>
+          <p style="font-size: 19px;">Lorem ipsum dolor sit amet, consectetur adipi elit</p>
+        </div>
+
+
+      </div>
+      <div class="organic">
+        <div>
+
+          <i class="fa-solid fa-leaf" style="color: #e9ebea;font-size: 30px;"></i>
+        </div>
+        <div>
+          <h2 class="farm">100% Organic</h2>
+          <p style="font-size: 19px;">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+        </div>
+
+
+      </div>
+      <div class="freedelivery">
+        <div>
+          <i class="fa-solid fa-truck-moving" style="color: #f6f7f8;font-size: 30px;"></i>
+        </div>
+        <div>
+          <h2 class="farm">Free delivery</h2>
+          <p style="font-size: 19px;">Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+   <div class="silder_container">
+  <div class="mycontainer41">
+    <div>
+      <h1>Category</h1>
+    </div>
+    <div class="flexview">
+      <input class="view" type="button" value="View All ">
+       <button id="pre"><i class="fa-solid fa-chevron-left" style="color: #121212;"></i></button>
+        <button id="next"><i class="fa-solid fa-chevron-right" style="color: #0f0f0f;"></i></button>
+
+
+    </div>
+
+  </div>
+  <div class="mycontainer5">
+     <div id="owl-carousel" class="owl-carousel owl-theme">
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-1.jpg" alt="">
+      <p class="imageparacenter1">Fruits & Vegas</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-8.jpg" alt="">
+      <p class="imageparacenter1">Breads & Sweets</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-3.jpg" alt="">
+      <p class="imageparacenter1">Fruits & Vegas</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-4.jpg" alt="">
+      <p class="imageparacenter1">Beverages</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-5.jpg" alt="">
+      <p class="imageparacenter1">Meat Products</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-1.jpg" alt="">
+      <p class="imageparacenter1">Fruits & Vegas</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-8.jpg" alt="">
+      <p class="imageparacenter1">Breads & Sweets</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-3.jpg" alt="">
+      <p class="imageparacenter1">Fruits & Vegas</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-4.jpg" alt="">
+      <p class="imageparacenter1">Beverages</p>
+
+    </div>
+    <div>
+      <img class="round" src="https://themewagon.github.io/organic/images/category-thumb-5.jpg" alt="">
+      <p class="imageparacenter1">Meat Products</p>
+
+    </div>
+   
+  </div>
+  </div>
+  </div>
+  <div class="mycontainer4">
+    <div>
+      <h1>Best selling products</h1>
+    </div>
+    <div>
+      <input class="view1" type="button" value="View All ">
+    </div>
+
+  </div>
+  <div class="grid-mycontainer6">
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-1.png" alt="">
+      <p class="padding">Whole Wheat Sandwich Bread</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+      <div class="hov">
+      <input  class="buttonsize" type="number" value="1">
+     <input class="add" type="button" value="Add to cart">
+     <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-2.png" alt="">
+      <p class="padding">Whole Grain Oatmeal</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(41)
+      <p class="cut"> <del>$54.00</del> <span style="font-weight: bold;"> $50.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+     <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-3.png" alt="">
+      <p class="padding">Whole Sharp Cheddar Cheese Block</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(32)
+      <p class="cut"> <del>$14.00</del> <span style="font-weight: bold;"> $12.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+      <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-4.png" alt="">
+      <p class="padding">Organic Baby Spinach</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-5.png" alt="">
+      <p class="padding">Organic Spinach Leaves</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+     <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-6.png" alt="">
+      <p class="padding">Fresh Salmon</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+  <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-7.png" alt="">
+      <p class="padding">Imported Italian Spagheti Pasta</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-8.png" alt="">
+
+      <p class="padding">Granny Smith Apples</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+     <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-9.png" alt="">
+      <p class="padding">Organic 2% Reduced Fat Milk</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+     <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-10.png" alt="">
+      <p class="padding">Greek Style Plain Yogurt</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="mycontainer7">
+    <div class="strawberry1">
+
+      <img class="straw" src="https://themewagon.github.io/organic/images/banner-ad-1.jpg" alt="">
+      <div class="strawberry">
+        <h1>Items on SALE</h1>
+        <p>Discounts upto 30%</p>
+        <h4 style="text-decoration: underline;">SHOP NOW</h2>
+      </div>
+    </div>
+
+
+    <div class="flex-tomato">
+      <div class="Tomato1">
+        <img class="toma" src="https://themewagon.github.io/organic/images/banner-ad-2.jpg" alt="">
+        <div class="tomato1">
+          <h1>Combo Offers</h1>
+          <p>Discounts upto 30%</p>
+          <h4 style="text-decoration: underline;">SHOP NOW</h2>
+
+        </div>
+      </div>
+      <div class="Tomato2">
+        <img class="toma2" src="https://themewagon.github.io/organic/images/banner-ad-3.jpg" alt="">
+        <div class="tomato2">
+          <h1>Discount Coupans</h1>
+          <p>Discounts upto 30%</p>
+          <h4 style="text-decoration: underline;">SHOP NOW</h2>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<div class="silder_container2">
+  <div class="mycontainer42">
+    <div>
+      <h1>Featured Products</h1>
+    </div>
+    <div class="flexview">
+      <input class="view" type="button" value="View All ">
+       <button id="feapre"><i class="fa-solid fa-chevron-left" style="color: #121212;"></i></button>
+        <button id="feanext"><i class="fa-solid fa-chevron-right" style="color: #0f0f0f;"></i></button>
+
+
+    </div>
+
+  </div>
+  <div class="grid-mycontainer61">
+    <div id="featured-carousel" class="owl-carousel owl-theme">
+    
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-10.png" alt="">
+      <p class="padding">Greek Style Plain Yogurt</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-11.png" alt="">
+      <p class="padding">Pure Squeezed No Pulp Orange Juice</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-12.png" alt="">
+      <p class="padding">Fresh Oranges</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-13.png" alt="">
+      <p class="padding">Gourmet Dark Chocolate Bars</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+     <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-10.png" alt="">
+      <p class="padding">Greek Style Plain Yogurt</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-11.png" alt="">
+      <p class="padding">Pure Squeezed No Pulp Orange Juice</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-12.png" alt="">
+      <p class="padding">Fresh Oranges</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-13.png" alt="">
+      <p class="padding">Gourmet Dark Chocolate Bars</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+ <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+     <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+ </div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="leaves">
+    <div class="headpara">
+      <div>
+        <h1 style="font-size: 50px; font-family: 'Times New Roman', Times, serif;">Get 25% Discount on your first
+          purchase</h1>
+      </div>
+      <div>
+        <p style="font-size: 20px; padding-top:30px ;">Just Sign Up & Register it now to become member.</p>
+      </div>
+    </div>
+    <div class="input">
+      <div>
+        <input class="textemail" type="text" id="name" name="name" placeholder="Name">
+      </div><br>
+      <div>
+        <input class="textemail" type="email" id="email" name="email" placeholder="Email Address">
+      </div><br>
+      <div>
+        <input class="submit" type="submit" id="submit">
+      </div>
+    </div>
+
+  </div>
+  <div class="silder_container3">
+  <div class="mycontainer43">
+    <div>
+      <h1>Most Popular Items</h1>
+    </div>
+    <div class="flexview">
+      <input class="view" type="button" value="View All ">
+      <button id="mostpre"><i class="fa-solid fa-chevron-left" style="color: #121212;"></i></button>
+        <button id="mostnext"><i class="fa-solid fa-chevron-right" style="color: #0f0f0f;"></i></button>
+
+
+    </div>
+
+  </div>
+  <div class="grid-mycontainer63">
+    <div id="most-carousel" class="owl-carousel owl-theme">
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-15.png" alt="">
+      <p class="padding">Sandwich Bread</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+      <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-16.png" alt="">
+      <p class="padding">Honeycrisp Apples</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+      <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-17.png" alt="">
+      <p class="padding">Whole Wheat Sandwich Bread</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-18.png" alt="">
+      <p class="padding">Honey Crisp Apples</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-15.png" alt="">
+      <p class="padding">Sandwich Bread</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+      <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-16.png" alt="">
+      <p class="padding">Honeycrisp Apples</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+      <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-17.png" alt="">
+      <p class="padding">Whole Wheat Sandwich Bread</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-18.png" alt="">
+      <p class="padding">Honey Crisp Apples</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+      </div>
+
+  </div>
+  </div>
+  </div>
+  <div class="silder_container1">
+  <div class="mycontainer44">
+    <div>
+      <h1>Just Arrives</h1>
+    </div>
+    <div class="flexview">
+      <input class="view" type="button" value="View All ">
+       <button id="justpre"><i class="fa-solid fa-chevron-left" style="color: #121212;"></i></button>
+        <button id="justnext"><i class="fa-solid fa-chevron-right" style="color: #0f0f0f;"></i></button>
+
+
+    </div>
+
+  </div>
+  <div class="grid-mycontainer62">
+    <div id="just-carousel" class="owl-carousel owl-theme">
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-20.png" alt="">
+      <p class="padding">Sunstar Fresh Melon Juice</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-1.png" alt="">
+      <p class="padding">Whole wheat Sandwich Bread</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-21.png" alt="">
+      <p class="padding">Sunstar Fresh Melon Juice</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-22.png" alt="">
+      <p class="padding">Gourmet Dark Chocolate </p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-20.png" alt="">
+      <p class="padding">Sunstar Fresh Melon Juice</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+      <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-1.png" alt="">
+      <p class="padding">Whole wheat Sandwich Bread</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-21.png" alt="">
+      <p class="padding">Sunstar Fresh Melon Juice</p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="imageparacenter">
+      <img src="https://themewagon.github.io/organic/images/product-thumb-22.png" alt="">
+      <p class="padding">Gourmet Dark Chocolate </p>
+
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>(222)
+      <p class="cut"> <del>$24.00</del> <span style="font-weight: bold;"> $18.00</span> <span
+          style=" border: 1px solid black;"> 10% OFF</span> </p>
+
+       <div class="hov">
+      <input class="buttonsize" type="number" value="1">
+      <input class="add" type="button" value="Add to cart">
+       <div class="heart">
+       <i class="fa-regular fa-heart" style="color: #111212;"></i>
+     </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="mycontainer4">
+    <div>
+      <h1>Our Recent Blog</h1>
+    </div>
+    <div>
+      <input class="view1" type="button" value="View All ">
+    </div>
+
+  </div>
+  <div class="mycontainer8">
+    <div data-aos="zoom-in">
+    <div class="blog">
+      <div class="blogimg1">
+        <img src="https://themewagon.github.io/organic/images/post-thumbnail-1.jpg " width="90%" alt="">
+      </div>
+      <div class="blog1">
+        <div class="calender">
+          <div>
+            <i class="fa-regular fa-calendar" style="color: #0d0d0d;"></i> 22 Aug 2021
+          </div>
+          <div>
+            <i class="fa-regular fa-folder" style="color: #000000;"></i> TIPS & TRICKS
+          </div>
+        </div>
+        <h1>Top 10 casual look ideas to <br>dress up your kids</h1>
+        <p class="greyy">Lorem ipsum dolor sit amet, consectetur adipi elit.
+          Aliquet eleifend viverra enim tincidunt donec quam.
+          A in arcu, hendrerit neque dolor morbi..</p>
+      </div>
+    </div>
+    </div>
+    <div data-aos="zoom-in">
+    <div class="blog">
+      <div class="blogimg1">
+        <img src="https://themewagon.github.io/organic/images/post-thumbnail-2.jpg" width="90%" alt="">
+      </div>
+      <div class="blog1">
+        <div class="calender">
+          <div>
+            <i class="fa-regular fa-calendar" style="color: #0d0d0d;"></i> 22 Aug 2021
+          </div>
+          <div>
+            <i class="fa-regular fa-folder" style="color: #000000;"></i> TIPS & TRICKS
+          </div>
+        </div>
+        <h1>Latest trends of wearing <br>street wears supremely</h1>
+        <p class="greyy">Lorem ipsum dolor sit amet, consectetur adipi elit.
+          Aliquet eleifend viverra enim tincidunt donec quam.
+          A in arcu, hendrerit neque dolor morbi..</p>
+      </div>
+    </div>
+    </div>
+     <div data-aos="zoom-in">
+     <div class="blog">
+      <div class="blogimg1">
+        <img src="https://themewagon.github.io/organic/images/post-thumbnail-3.jpg" width="90%" alt="">
+      </div>
+      <div class="blog1">
+        <div class="calender">
+          <div>
+            <i class="fa-regular fa-calendar" style="color: #0d0d0d;"></i> 22 Aug 2021
+          </div>
+          <div>
+            <i class="fa-regular fa-folder" style="color: #000000;"></i> TIPS & TRICKS
+          </div>
+        </div>
+        <h1>10 Different Types of <br>comfortable clothes ideas <br>for women</h1>
+        <p class="greyy">Lorem ipsum dolor sit amet, consectetur adipi elit.
+          Aliquet eleifend viverra enim tincidunt donec quam.
+          A in arcu, hendrerit neque dolor morbi..</p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <div class="download">
+    <div class="download1">
+
+      <h1 style="padding-bottom: 25px; font-size: 35px;">Download Organic App</h1>
+
+      <p style="color: grey; padding-bottom: 25px;font-size: 20px;">Online Orders made easy, fast and reliable</p>
+      <div>
+        <a href=""><img src="https://themewagon.github.io/organic/images/img-app-store.png" alt=""></a>
+        <a href=""><img src="https://themewagon.github.io/organic/images/img-google-play.png" alt=""></a>
+      </div>
+    </div>
+    <div class="download2">
+      <img src="https://themewagon.github.io/organic/images/banner-onlineapp.png" alt="">
+    </div>
+
+
+
+  </div>
+
+
+
+  <div class="heading">
+    <h1>People are also looking for</h1>
+  </div>
+  <div class="mycontainer9">
+    <div class="blue">
+      <p>Blue diamon almonds</p>
+    </div>
+    <div class="blue">Angle's Boomchicapop Com</div>
+    <div class="blue">Salty Kettle corn</div>
+    <div class="blue">Choboni Greek Yogurt</div>
+    <div class="blue">Sweet vennila yogurt</div>
+    <div class="blue">Foster Farms Takeout Crispy Wings</div>
+    <div class="blue">Warrior Blend Organic</div>
+    <div class="blue">Chao Cheese creamy</div>
+    <div class="blue">chivken meatballs</div>
+    <div class="blue">Blue diamon almonds</div>
+    <div class="blue">Angle's Boomchicapop Com</div>
+    <div class="blue">Salty Kettle corn</div>
+    <div class="blue">Choboni Greek Yogurt</div>
+    <div class="blue">Sweet vennila yogurt</div>
+    <div class="blue">Foster Farms Takeout Crispy Wings</div>
+    <div class="blue">Warrior Blend Organic</div>
+    <div class="blue">Chao Cheese creamy</div>
+    <div class="blue">chivken meatballs</div>
+  </div>
+  <div class="mycontainer10">
+    <div class="last">
+      <div><i class="fa-solid fa-location-dot" style="color: #000000;"></i></div>
+      <h2>Free delivery</h2>
+      <p class="greyy">Lorem ipsum dolor sit amet, consectetur adipi elit</p>
+    </div>
+    <div class="last">
+      <div><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i></div>
+      <h2>100% secure payment</h2>
+      <p class="greyy">Lorem ipsum dolor sit amet, consectetur adipi elit</p>
+    </div>
+    <div class="last">
+      <div><i class="fa-solid fa-square-check" style="color: #000000;"></i></div>
+      <h2>Quality guarantee</h2>
+      <p class="greyy">Lorem ipsum dolor sit amet, consectetur adipi elit</p>
+    </div>
+    <div class="last">
+      <div><i class="fa-solid fa-circle-check" style="color: #000000;"></i></div>
+      <h2>Guaranteed savings</h2>
+      <p class="greyy">Lorem ipsum dolor sit amet,consectetur adipi elit</p>
+    </div>
+    <div class="last">
+      <div><i class="fa-solid fa-gift" style="color: #000000;"></i></div>
+      <h2>Daily offers</h2>
+      <p class="greyy">Lorem ipsum dolor sit amet, consectetur adipi elit</p>
+    </div>
+  </div>
+  <div class="mycontainer11">
+    <div class="orga">
+      <img class="organicl" src="https://themewagon.github.io/organic/images/logo.svg" alt="">
+      <div class="flexicon">
+        <div class="lasticon"><i class="fa-brands fa-facebook-f" style="color: #828282;"></i></div>
+        <div class="lasticon"><i class="fa-brands fa-twitter" style="color: #828487;"></i></div>
+        <div class="lasticon"><i class="fa-brands fa-youtube" style="color: #929396;"></i></div>
+        <div class="lasticon"><i class="fa-brands fa-instagram" style="color: #797a7c;"></i></div>
+        <div class="lasticon"><i class="fa-brands fa-amazon" style="color: #757575;"></i></div>
+      </div>
+
+
+
+
+    </div>
+    <div class="org">
+      <h2>Organic</h2>
+      <div class="greyyy">
+        <p>About us</p>
+        <p>Conditions</p>
+        <p>Our Journals</p>
+        <p>Careers</p>
+        <p>Affiliate Programme</p>
+        <p>Ultras Press</p>
+      </div>
+    </div>
+    <div class="quick">
+      <h2>Quick Links</h2>
+      <div class="greyyy">
+        <p>Offers </p>
+        <p>Discounts</p>
+        <p>Coupans</p>
+        <p>Stores</p>
+        <p>Track order </p>
+        <p>Shop</p>
+        <p>Info</p>
+      </div>
+    </div>
+    <div class="cust">
+      <h2>Customer Service</h2>
+      <div class="greyyy">
+        <p>FAQ</p>
+        <p>Contact</p>
+        <p>Privacy Policy</p>
+        <p>Returns & Refunds</p>
+        <p>Cookies Guidelines</p>
+        <p>Delivery Information</p>
+      </div>
+    </div>
+    <div class="sub">
+      <h2>Subscibe Us</h2>
+      <div class="greyyy">
+        <p style="line-height: 25px;">Subscribe to our newsletter to get updates about our grand offers</p>
+      </div>
+      <div class="lastt">
+        <div>
+          <input class="emails" type="email" name="email" placeholder="Email Address">
+
+        </div>
+        <div>
+          <input class="submits" type="sumbit" value="Subscribe">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="mycontainer12">
+    <div>
+      <p class="greyy1">@ 2024 Organic. All rights reserved.</p>
+    </div>
+    <div class="divgreyy2">
+      <p class="greyy2">HTML Template by <a href="TemplatesJungle ">TemplatesJungle </a>Distributed By <a
+          href="ThemeWagon">ThemeWagon</a></p>
+    </div>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script>
+    $(document).ready(function(){
+  var owl = $('#owl-carousel');
+
+  owl.owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: false,
+    nav: false,
+    navText: ["prev", "next"],
+    items:5 ,
+   responsive:{
+     426:{
+          items: 1
+        },
+        768:{
+          items: 3
+        },
+        1440:{
+          items:5 
+        }
+      
+  }
+  });
+
+  // Custom navigation buttons
+  $('#pre').click(function(){
+    owl.trigger('prev.owl.carousel');
+  });
+
+  $('#next').click(function(){
+    owl.trigger('next.owl.carousel');
+  });
+
+  var  featuredowl= $('#featured-carousel');
+  
+  featuredowl.owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: false,
+    nav: false,
+    navText: ["prev", "next"],
+    items: 4,
+   responsive:{
+     426:{
+          items: 1
+        },
+        768:{
+          items: 3
+        },
+        1440:{
+          items: 4
+        }
+      
+  }
+  });   
+  
+  // Custom navigation buttons
+  $('#feapre').click(function(){
+    console.log(featuredowl,'featuredowl')
+    featuredowl.trigger('prev.owl.carousel');
+  });
+  
+  $('#feanext').click(function(){
+    featuredowl.trigger('next.owl.carousel');
+  });
+});
+
+     
+
+
+  
+  var justowl = $('#just-carousel');
+
+  justowl.owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: false,
+    nav: false,
+    navText: ["prev", "next"],
+    items: 4,
+   responsive:{
+     426:{
+          items: 1
+        },
+        768:{
+          items: 3
+        },
+        1440:{
+          items: 4
+        }
+      
+  }
+  });
+
+  // Custom navigation buttons
+  $('#justpre').click(function(){
+    justowl.trigger('prev.owl.carousel');
+  });
+
+  $('#justnext').click(function(){
+    justowl.trigger('next.owl.carousel');
+  });
+;
+
+  
+
+
+   var mostowl = $('#most-carousel');
+
+    mostowl.owlCarousel({
+    loop: false,
+    margin: 30,
+    dots: false,
+    nav: false,
+    navText: ["prev", "next"],
+    items: 4,
+   responsive:{
+     426:{
+          items: 1
+        },
+        768:{
+          items: 3
+        },
+        1440:{
+          items: 4
+        }
+      
+  }
+  });
+
+  // Custom navigation buttons
+  $('#mostpre').click(function(){
+    mostowl.trigger('prev.owl.carousel');
+  });
+
+  $('#mostnext').click(function(){
+    mostowl.trigger('next.owl.carousel');
+  });
+;
+
+
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+
+  <script src="./website3.js"></script>
+</body>
+
+</html>
